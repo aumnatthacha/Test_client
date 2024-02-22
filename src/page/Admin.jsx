@@ -20,7 +20,8 @@ const Admin = () => {
       </div>
 
       {/* navbar */}
-      <div className="w-[1920px] h-[65px] left-0 top-0 absolute bg-white border-b border-stone-300" />
+      {/* <div className="w-[1440px] h-[65px] left-0 top-0 absolute bg-white border-b border-stone-300" /> */}
+      <Navbar/>
 
       {/*  2*/}
 
