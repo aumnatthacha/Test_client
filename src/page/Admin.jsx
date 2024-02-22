@@ -21,7 +21,7 @@ const Admin = () => {
 
       {/* navbar */}
       {/* <div className="w-[1440px] h-[65px] left-0 top-0 absolute bg-white border-b border-stone-300" /> */}
-      <Navbar/>
+      <Navbar />
 
       {/*  2*/}
 
@@ -62,10 +62,9 @@ const Admin = () => {
             </button>
           </div>
         </div>
-        {/*  */}
       </div>
-      {/*  */}
-      <div className="w-[250px] h-[50px] left-0 top-[103px] absolute">
+
+       <div className="w-[250px] h-[50px] left-0 top-[103px] absolute">
         <div className="w-[250px] h-[50px] left-0 top-0 absolute bg-red-500 rounded-tr-[30px] rounded-br-[30px]" />
         <div className="left-[63px] top-[9px] absolute flex items-center text-white text-xl font-normal font-['Prompt']">
           {/* Icon ทางซ้ายของข้อความ */}
@@ -89,6 +88,7 @@ const Admin = () => {
           Users List
         </div>
       </div>
+      {/*  */}
      
 
       <div className="w-[1133px] h-[530px] left-[307px] top-[195px] absolute">
@@ -186,7 +186,7 @@ const Admin = () => {
         {/*  */}
 
         {/* data User */}
-          <DataSections/>
+        <DataSections />
         {/*  */}
 
         {/* drop down */}

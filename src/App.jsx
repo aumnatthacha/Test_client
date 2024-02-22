@@ -2,6 +2,7 @@
 // import Account from "./page/Account"
 import Admin from "./page/Admin"
 // import DataSections from "./Components/dataSections"
+import Drawer from "./Components/Drawer"
 
 
 
@@ -17,6 +18,7 @@ function App() {
         {/* <SortbyDateDropdown/> */}
         {/* <DataSections/> */}
         {/* <Account/> */}
+        <Drawer/>
 
         
       </div>
